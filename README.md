@@ -1,4 +1,4 @@
-# Ex_8_CheckBox
+# Ex_8_CheckBox Develop an android application to display the images using.
 Develop a program to create a option menu using checkboxes and display the toast selected checkboxes with Android Studio
 ## AIM:
 To Develop a program for creating a option menu using checkboxes and display the toast selected checkboxes with Android Studio.
@@ -28,8 +28,8 @@ Step 7: Save and run the application.
  ```
 /*
 Program to create an Option Menu
-Developed by: GREFFINA SANCHEZ P  
-RegisterNumber:  212222040048
+Developed by: Hemapriya R
+RegisterNumber: 212222040055
 */
 ```
 
@@ -38,9 +38,12 @@ RegisterNumber:  212222040048
 package com.example.exp8;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.widget.CheckBox;
 import android.widget.Toast;
+import android.os.Bundle;
 import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
@@ -48,8 +51,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        chkAndroid = findViewById(R.id.chkAndroid);
+        setContentView(R.layout.activity_main);chkAndroid = findViewById(R.id.chkAndroid);
         chkJava = findViewById(R.id.chkJava);
         chkPhp = findViewById(R.id.chkPhp);
         chkCpp = findViewById(R.id.chkCpp);
@@ -78,6 +80,7 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 ```
+
 ## activity_main.xml:
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -145,7 +148,8 @@ public class MainActivity extends AppCompatActivity {
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.exp8">
 
     <application
         android:allowBackup="true"
@@ -172,10 +176,8 @@ public class MainActivity extends AppCompatActivity {
 ```
 
 ## Output
-![exp-8](https://github.com/user-attachments/assets/706c1d18-0cca-4761-8b85-c8197edc0667)
-![image](https://github.com/user-attachments/assets/332094c2-73cc-4b48-a3d9-475b7f927c28)
-
-
+<img src="https://github.com/user-attachments/assets/9de58e1d-e8d0-4c5a-a4ad-9b7035f8e6aa" width=200>
+<img src="https://github.com/user-attachments/assets/528e69c3-1ecf-47c7-8f43-27c2374a93d9" width=200>
 
 
 ## Result:
